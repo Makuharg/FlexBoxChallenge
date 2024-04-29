@@ -10,7 +10,7 @@ body {
 .contactos {
     display: flex;
     flex-direction: column;
-    width: 15%;   
+    width: 350px;   
 }
 
 /* menu de contactos */
@@ -37,11 +37,12 @@ body {
 }
 
 .parrafo1-maria {
-    margin-left: 0.2em;
+    margin-left: 0.15em;
 }
 
 .parrafo2-maria {
     color: #BEC1BB;
+    font-size: 12px
 }
 
 .icons-maria {
@@ -51,7 +52,7 @@ body {
 
 .icons-maria i {
     padding: 0.5em;
-    font-size: 1.6em;
+    font-size: 1.1em;
     color: #828485;
 }
 
@@ -62,7 +63,7 @@ body {
 /* Boton nuevo chat */
 
 .boton-contactos {
-    height: 180px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,16 +94,46 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1.5em 2em;
-    background-color: aquamarine;
+    padding: 0.78em 2em;
+    border: 1px solid #BEC1BB;
 }
 
 .chat-list img {
-    width: 62px;
-    height: 62px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 
 .chat-text {
     font-size: 16px;
 }
+
+.chat-text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;    
+}
+
+/* esta parte es el main */
+
+.page {
+    display: flex;
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.empresa img {
+    width: 300px;
+}
+
+.titulo {
+    font-size: 45px;
+    padding-top: 0.7em;
+}
+
+
